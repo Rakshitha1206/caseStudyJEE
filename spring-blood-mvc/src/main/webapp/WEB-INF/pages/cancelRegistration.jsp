@@ -39,8 +39,9 @@ padding:15px;
 </head>
 <body>
 <div class=container>
+<h2>Cancel Registration</h2>
  <form:form action="/deleteDonorById" modelAttribute="data" method="delete">
-<div><label for="">Cancel Registrtion</label>
+<div><label for="">Enter Donar Id</label>
  <form:input path="donarId"/>
  </div> 
  <br>

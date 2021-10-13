@@ -86,7 +86,7 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a href="/addDonar">Regiter to Donate</a></li>
+      <li><a href="/addDonar">Register to Donate</a></li>
       <li><a href="/getAllDonars">Show Donar</a></li>
       <li><a href="/addCamp">Add Camp</a></li>
       <li><a href="/getAllCamps">Show Camps Details</a></li>

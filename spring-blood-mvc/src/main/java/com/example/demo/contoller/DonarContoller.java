@@ -116,7 +116,7 @@ public class DonarContoller {
 		return ResponseEntity.ok().body("One Donor Deleted");
 		}
 		else {
-		return ResponseEntity.status(HttpStatus.NOT_FOUND).body("Record Not Found");
+		return ResponseEntity.status(HttpStatus.NOT_FOUND).body("OOPS Record Not Found");
 		}
 
 		}
@@ -128,7 +128,7 @@ public class DonarContoller {
 		model.addAttribute("data",object);
 		return "update";
 		}
-		@RequestMapping(path = "/updateDonorById" ,method = RequestMethod.POST)
+		@RequestMapping(path = "/updateDonorById" )
 		public ResponseEntity<String> updateDonorById(@RequestParam("donarId") int donarId,@RequestParam("city") String city, Model model) {
 
 		HttpHeaders headers = new HttpHeaders();
