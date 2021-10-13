@@ -11,8 +11,7 @@
 table{
 margin-left: auto;
 margin-right:auto;
-border:2px solid blue;
-border-collpase:collapase;
+
 }
 th{
   padding:10px 8px;

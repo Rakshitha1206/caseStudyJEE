@@ -50,7 +50,7 @@ public class CampController {
 	    		headers.setAccept(Arrays.asList(MediaType.APPLICATION_JSON));
 	    		headers.setContentType(MediaType.APPLICATION_JSON);
 	    		HttpEntity<DonarCamp> requestBody = new HttpEntity<>(camp,headers);
-	        	template.postForObject("http://localhost:6060/api/v1/camps", requestBody, DonarCamp.class);
+	        	template.postForObject("http://localhost:/api/v1/camps", requestBody, DonarCamp.class);
 	    	}
 	    	return nextStep;
 	    }

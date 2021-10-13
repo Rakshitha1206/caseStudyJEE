@@ -24,8 +24,7 @@ public class Donar {
 
 	@Id //the column with primary key we have to add @Id
 	@Column(name="donar_Id")
-	@GeneratedValue(strategy=GenerationType.SEQUENCE,generator="sequence") 
-	@SequenceGenerator(name="sequence",initialValue=104)
+	
 	
 	int donarId;
 	
