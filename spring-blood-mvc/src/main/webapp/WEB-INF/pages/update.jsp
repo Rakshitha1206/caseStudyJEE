@@ -44,7 +44,7 @@ padding:15px;
 <body>
 <div class =container>
 <h2>Update Donar Location</h2>
- <form:form action="/updateDonorById" modelAttribute="data" method="">
+ <form:form action="/updateDonorById" modelAttribute="data" method="delete">
  <div><label for="">Enter Donar Id</label>
   <form:input path="donarId"/></div>
   <br>
